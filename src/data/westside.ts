@@ -157,7 +157,7 @@ export const images = {
     name: 'hero-spiess-mobile',
     // Shared alt for both art-directed hero crops (only one <img> element is rendered).
     alt: 'Frisch gegrillter Dönerspieß an der Theke vom Westside Imbiss',
-    position: '50% 30%',
+    position: '50% 35%',
   },
   logo: { name: 'logo', alt: 'Westside Imbiss Logo' },
   openingQueue: {
@@ -188,7 +188,7 @@ export const foodHighlights: FoodHighlight[] = [
     id: 'doener',
     title: 'Döner',
     text: 'Huhn, Steak oder gemischt – frisch vom Spieß als Sandwich, Dürüm, Box oder Teller.',
-    image: { name: 'food-doener', alt: 'Dönerspieß in Nahaufnahme', position: '50% 40%' },
+    image: { name: 'food-doener', alt: 'Goldbraun gegrillter Dönerspieß an der Theke, darunter frisch geschnittenes Fleisch', position: '50% 60%' },
   },
   {
     id: 'pizza',

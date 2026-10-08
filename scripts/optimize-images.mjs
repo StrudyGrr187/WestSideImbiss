@@ -45,8 +45,9 @@ const HERO_PRICE_BLUR =
  */
 const jobs = [
   { name: 'hero-spiess', file: 'hero-spiess-landscape.jpg', widths: [640, 960, 1276], srcW: 1276, srcH: 640, filter: HERO_PRICE_BLUR + LANDSCAPE_CROP, complex: true },
-  { name: 'hero-spiess-mobile', file: 'food-doener-spiess-2.jpg', widths: [480, 720], srcW: 720, srcH: 1280 },
-  { name: 'food-doener', file: 'food-doener-spiess.jpg', widths: [480, 720], srcW: 720, srcH: 1280 },
+  // Golden spieß from the opening reel (warm light) – portrait cut, no watermark, no price tag in frame.
+  { name: 'hero-spiess-mobile', file: 'hero-spiess-gold.jpg', widths: [404], srcW: 404, srcH: 718, filter: 'crop=404:718:110:0' },
+  { name: 'food-doener', file: 'food-doener-spiess-gold.jpg', widths: [404], srcW: 404, srcH: 718, filter: 'crop=404:718:0:0' },
   { name: 'food-pizza', file: 'food-pizza.jpg', widths: [480, 720], srcW: 720, srcH: 1280 },
   // CTA "Döner. Aber richtig." – square crop around the sandwich (frame 59.8s of the Adnan Be Halal reel).
   { name: 'cta-doener', file: 'food-doener-sandwich-close.jpg', widths: [480, 720], srcW: 720, srcH: 720, filter: 'crop=720:720:0:10' },
