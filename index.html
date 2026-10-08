@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Westside Imbiss Wien – Thaliastraße 148</title>
+    <meta
+      name="description"
+      content="Döner, Pizza &amp; Snacks in Ottakring: Westside Imbiss, Thaliastraße 148, 1160 Wien. Täglich 10–22 Uhr. 5,0 auf Google. Jetzt vorbeikommen oder via Wolt &amp; foodora bestellen."
+    />
+    <meta name="theme-color" content="#0B0A09" />
+    <meta name="color-scheme" content="dark" />
+    <link rel="canonical" href="%SITE_URL%/" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <!-- Open Graph / Twitter -->
+    <meta property="og:type" content="restaurant" />
+    <meta property="og:locale" content="de_AT" />
+    <meta property="og:site_name" content="Westside Imbiss" />
+    <meta property="og:title" content="Westside Imbiss Wien – Thaliastraße 148" />
+    <meta
+      property="og:description"
+      content="Döner, Pizza &amp; Snacks in Ottakring. Frisch. Lecker. Westside. Täglich 10–22 Uhr."
+    />
+    <meta property="og:url" content="%SITE_URL%/" />
+    <meta property="og:image" content="%SITE_URL%/images/og-westside.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Dönerspieß und Team an der Theke vom Westside Imbiss" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Westside Imbiss Wien – Thaliastraße 148" />
+    <meta name="twitter:description" content="Döner, Pizza &amp; Snacks in Ottakring. Täglich 10–22 Uhr." />
+    <meta name="twitter:image" content="%SITE_URL%/images/og-westside.jpg" />
+
+    <!-- LCP: art-directed hero (AVIF only; browsers without AVIF ignore these hints) -->
+    <link
+      rel="preload"
+      as="image"
+      type="image/avif"
+      media="(min-width: 1024px)"
+      imagesrcset="/images/hero-spiess-640.avif 640w, /images/hero-spiess-960.avif 960w, /images/hero-spiess-1276.avif 1276w"
+      imagesizes="100vw"
+      fetchpriority="high"
+    />
+    <link
+      rel="preload"
+      as="image"
+      type="image/avif"
+      media="(max-width: 1023.98px)"
+      imagesrcset="/images/hero-spiess-mobile-480.avif 480w, /images/hero-spiess-mobile-720.avif 720w"
+      imagesizes="100vw"
+      fetchpriority="high"
+    />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Restaurant",
+        "@id": "%SITE_URL%/#restaurant",
+        "name": "Westside Imbiss",
+        "url": "%SITE_URL%/",
+        "image": "%SITE_URL%/images/og-westside.jpg",
+        "logo": "%SITE_URL%/images/logo-150.jpg",
+        "telephone": "+436606513300",
+        "servesCuisine": ["Döner", "Pizza", "Pide", "Dürüm", "Salate"],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Thaliastraße 148",
+          "postalCode": "1160",
+          "addressLocality": "Wien",
+          "addressRegion": "Wien",
+          "addressCountry": "AT"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 48.213,
+          "longitude": 16.3103631
+        },
+        "hasMap": "https://maps.app.goo.gl/fCozB7o1wJLzNsuW7",
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+            "opens": "10:00",
+            "closes": "22:00"
+          }
+        ],
+        "sameAs": ["https://www.instagram.com/westside_imbiss16/"]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <p style="padding:24px;font-family:system-ui;color:#F5EFE4;background:#0B0A09">
+        Westside Imbiss · Thaliastraße 148, 1160 Wien · Tel. +43 660 6513300 · Täglich 10:00–22:00
+      </p>
+    </noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

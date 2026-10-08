@@ -1,0 +1,9 @@
+:root{color-scheme:dark}
+body{margin:0;background:#0B0A09;color:#F5EFE4;font:16px/1.6 system-ui,sans-serif}
+main{max-width:720px;margin:0 auto;padding:64px 20px 96px}
+a{color:#F5B82E;text-underline-offset:4px}
+a:focus-visible{outline:2px solid #F5B82E;outline-offset:3px}
+h1{font:900 48px/0.95 "Arial Narrow",Impact,sans-serif;text-transform:uppercase;letter-spacing:-.01em;margin:24px 0 32px}
+h2{font-size:14px;letter-spacing:.18em;text-transform:uppercase;color:#F5B82E;margin:40px 0 8px}
+.todo{background:rgba(232,70,30,.15);border:1px dashed #E8461E;padding:0 6px;border-radius:4px}
+.note{color:#A39B8F;font-size:14px}
